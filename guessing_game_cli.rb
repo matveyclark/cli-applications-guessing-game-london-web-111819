@@ -6,7 +6,7 @@ require 'pry'
 def run_guessing_game
   input
   if input == 'exit'
-    puts 'Goodbye'
+    Goodbye
   end
 end
 # binding.pry

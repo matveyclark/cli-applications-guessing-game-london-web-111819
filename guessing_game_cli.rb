@@ -4,7 +4,7 @@ def run_guessing_game
   if input == 'exit'
     puts '/Goodbye!/'
   elsif input != number
-    puts '/Sorry! the computer guessed ' + number + './'
+    puts '/Sorry! The computer guessed ' + number + './'
   end
 end
 

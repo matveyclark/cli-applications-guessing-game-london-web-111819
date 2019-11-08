@@ -5,8 +5,8 @@ def run_guessing_game
   binding.pry
   if input == 'exit'
     puts '/Goodbye!/'
-  elsif input != number
-    puts '/Sorry, the computer guessed ' + number + './'
+  # elsif input != number
+  #   puts '/Sorry, the computer guessed ' + number + './'
   end
 end
 

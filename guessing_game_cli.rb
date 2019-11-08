@@ -4,7 +4,8 @@ def run_guessing_game
   input = gets.chomp
   if input == 'exit'
     puts '/Goodbye!/'
-  elsif  
+  elsif input != number
+    puts '/Sorry, the computer guessed ' + number + '.'
   end
 end
 # binding.pry

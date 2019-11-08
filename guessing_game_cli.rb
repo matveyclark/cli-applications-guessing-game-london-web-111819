@@ -5,6 +5,8 @@ def run_guessing_game
     puts '/Goodbye!/'
   elsif input != number
     puts '/Sorry! The computer guessed ' + number + './'
+  else
+    puts '/You guessed the correct number!/'
   end
 end
 

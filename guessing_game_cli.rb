@@ -4,7 +4,7 @@
 
 require 'pry'
 def run_guessing_game
-  input
+  input = gets.chomp
   if input == 'exit'
     puts '/Goodbye!/'
   end

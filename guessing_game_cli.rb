@@ -7,6 +7,5 @@ def run_guessing_game
   elsif input != number
     puts '/Sorry, the computer guessed ' + number + './'
   end
-  binding.pry
 end
 
